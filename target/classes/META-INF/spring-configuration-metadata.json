@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "chatgpt.api",
+      "type": "com.example.aireview.config.ChatGptProperties",
+      "sourceType": "com.example.aireview.config.ChatGptProperties"
+    },
+    {
+      "name": "git.api",
+      "type": "com.example.aireview.config.GitProperties",
+      "sourceType": "com.example.aireview.config.GitProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "chatgpt.api.key",
+      "type": "java.lang.String",
+      "sourceType": "com.example.aireview.config.ChatGptProperties"
+    },
+    {
+      "name": "chatgpt.api.model",
+      "type": "java.lang.String",
+      "sourceType": "com.example.aireview.config.ChatGptProperties"
+    },
+    {
+      "name": "chatgpt.api.url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.aireview.config.ChatGptProperties"
+    },
+    {
+      "name": "git.api.token",
+      "type": "java.lang.String",
+      "sourceType": "com.example.aireview.config.GitProperties"
+    },
+    {
+      "name": "git.api.url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.aireview.config.GitProperties"
+    }
+  ],
+  "hints": []
+}
